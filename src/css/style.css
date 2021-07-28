@@ -1,0 +1,104 @@
+html, body {                      
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#logo {
+    width: 65%;
+    display: block;
+    margin: 10px auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+	flex-direction: column;
+}
+
+form {
+    margin: auto;
+}
+
+form .search {
+    margin: 15px auto;
+}
+
+.language {
+    margin: 0 auto;
+}
+
+.search-box {
+    width: 600px;
+    border: 1.5px solid rgb(223, 222, 222); 
+    min-height: 30px;
+    border-radius: 25px;
+    padding: 1%;
+    margin: 15px;
+}
+
+.search-ico {
+    width: 30px;
+    height: 30px;
+    float: left;
+    color: rgb(199, 198, 198);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.keyboard-btn {
+    width: 60px;
+    height: 30px;
+    float: right;
+    color: rgb(138, 136, 136);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.voice-btn {
+    width: 30px;
+    height: 30px;
+    float: right;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.voice-btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.buttons {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+   
+.buttons button {
+    border: none;
+    margin: 15px 15px;
+    background-color: #F8F9FA;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+input[type="search"] {
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none;
+    width: 80%;
+    height: 30px;
+    vertical-align: middle;
+}

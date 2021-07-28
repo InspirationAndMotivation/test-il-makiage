@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Testing web-site google for il-makiage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Google</title>
+    <script src="https://kit.fontawesome.com/b8991598b2.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>   
+    <div class = "wrapper">
+      <div class="content">
+        <div class="header__logo">
+          <img src = "./img/google_logo.png" id='logo' alt="logo">
+        </div>
+        <form method="get">
+          <div class = "search-box">
+            <input type="search" id="q" name="q">
+            <a class="search-ico">
+              <i class="fas fa-search"></i>
+            </a>
+            <a class="voice-btn">
+              <img src="./img/google_voice_icon.png" alt = 'voice icon'>
+            </a>
+            <a class="keyboard-btn">
+              <i class="fas fa-keyboard"></i>
+            </a>
+          </div>
+          <div class="buttons hover-overlay ripple shadow-1-strong rounded"
+            data-mdb-ripple-color="light">
+            <button type = "submit" class = "w-100 hover-shadow" id="search-btn">Пошук Google</button>
+            <button type = "button" class = "w-100 hover-shadow" id="lucky-btn" onclick="changeLogo();">Мені пощастить</button>
+        </div>
+        </form>
+        <div class="language">
+          <p>Мова Google:
+            <a href="./english_google.html">English</a> 
+            <a href="./russian_google.html">Русский</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  <script>
+    function changeLogo() {
+      var il_makiage_logo_path = "./img/il_makiage_logo.png";
+
+      document.getElementById("logo").src = il_makiage_logo_path;
+    }
+  </script>
+  </body>
+</html>
